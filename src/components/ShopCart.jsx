@@ -242,7 +242,7 @@ const ShopCart = () => {
                 <h3>{total} $</h3>
               </div>
               <div className="order_subtotal">
-                <h3>Total Discount</h3>
+                <h3>Total Discount{`(`}10% discount on 5000{`)`}</h3>
                 <h3>-{total>5000?cashBack+total/10:cashBack} $</h3>
               </div>
               <div className="order_subtotal">
