@@ -243,7 +243,7 @@ const ShopCart = () => {
               </div>
               <div className="order_subtotal">
                 <h3>Total Discount</h3>
-                <h3>-{cashBack} $</h3>
+                <h3>-{total>5000?cashBack+total/10:cashBack} $</h3>
               </div>
               <div className="order_subtotal">
               <h3>Standard Shipping</h3>
