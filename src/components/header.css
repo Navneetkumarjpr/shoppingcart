@@ -1,0 +1,24 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(24, 24, 141);
+    padding: 0.7rem 1rem;
+}
+.logo{
+    margin-left: 1rem;
+    color: white;
+}
+.header_icons{
+    display: flex;
+    align-items: center;
+}
+.header_icons h5{
+    margin-right: 0.5rem;
+    color: white;
+}
+.header_image{
+    border-left: 1px solid white;
+    width: 35px;
+    height: 33px;
+}

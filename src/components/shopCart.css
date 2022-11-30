@@ -1,0 +1,351 @@
+.outerShoppingCart{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(231, 227, 227);
+}
+
+.shoppingCart{
+    width: 80vw;
+    margin-top: 1.5rem;
+    border: 1px solid gray;
+    border-radius: 0.7rem;
+    margin-bottom: 1rem;
+    background-color: white;
+}
+.shopping_head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.2rem 1rem;
+    width: 100%;
+}
+.product{
+    width: 40%;
+}
+.price{
+    width: 20%;
+}
+.quality{
+    width: 20%;
+}
+.subtotal{
+    width: 20%;
+}
+.space{
+    width: 3%;
+}
+.products{
+    margin-top: 1rem;
+    border-top: 1px solid gray;
+}
+.card{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    border-bottom: 1px solid gray;
+}
+.image_card{
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.image_card img{
+    padding: 1rem 0;
+    margin-left: 5%;
+}
+.gift_box{
+    width: 100%;
+    margin-left: 5%;
+}
+.gift_value{
+    margin-left: 5%;
+}
+.gift_box h2{
+    font-size: 0.9rem;
+    background-color: black;
+    color: white;
+    width: fit-content;
+    font-weight: 600;
+    padding: 0.2rem 0.4rem;
+    border-radius: 3px;
+}
+
+.gift_box h4{
+color: rgb(76, 74, 74);
+font-weight: 500;
+font-size: 1.2rem;
+}
+
+.gift_box h3{
+    color: gray;
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+.card_detail{
+    width: 100%;
+    margin-left: 5%;
+}
+.card_detail h3{
+    color: rgb(74, 72, 72);
+    font-weight: 500;
+}
+.card_detail h4{
+    color: gray;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+.tagline{
+    background-color: rgb(24, 24, 141);;
+    width: fit-content;
+    padding: 0.2rem 0.4rem;
+    color: white;
+    border-radius: 2px;
+    font-size: 0.9rem;
+}
+.price_detail{
+    width: 20%;
+}
+.quality_detail{
+    width: 20%;
+    display: flex;
+}
+.subTotal_detail{
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+}
+.del_bun{
+    margin-left: 2rem;
+    width: 3%;
+}
+.delete_button{
+    margin-left: 2rem;
+    cursor: pointer;
+}
+.button{
+    background:none;
+    border: none;
+    cursor: pointer;
+
+}
+.num{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+    width: 1.5rem;
+}
+
+.delivery_box{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.delivery_box h2{
+    color: gray;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+.location_detail{
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    padding: 0.5rem 0;
+    margin-top: 1rem;
+    border-bottom: 1.5px solid black;
+}
+.location_detail h3{
+    color: rgb(24, 24, 141);
+    font-weight: 700;
+    font-size: 1rem;
+}
+.location_detail input{
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 1rem;
+}
+.delivery_detail{
+    width: 75%;
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.free{
+    display: flex;
+}
+.free h3{
+    font-size: 0.9rem;
+    color: gray;
+    font-weight: 500;
+}
+.free img{
+    width: 25px;
+    height: 25px;
+}
+.free div{
+    display: flex;
+    flex-direction: column;
+}
+
+.price_total{
+    display: flex;
+    padding:1rem 1rem;
+    justify-content: space-between;
+}
+.order_summary{
+    width: 30%;
+}
+.summ{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.order_subtotal{
+    display: flex;
+    margin-bottom: 0.7rem;
+    width: 100%;
+    justify-content: space-between;
+}
+.order_subtotal h3{
+    color: gray;
+    /* margin-top: 2rem; */
+    font-size: 1rem;
+    font-weight: 400;
+}
+.order_total{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.order_total h3{
+    font-size: 1.2rem;
+    color: gray;
+    font-weight: 600;
+}
+.continue{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    justify-content: space-between;
+}
+.continue h3{
+    color: rgb(24, 24, 141);;
+    font-size: 1rem;
+}
+.continue button{
+    font-size: 0.9rem;
+    border-radius: 30px;
+    padding: 1rem 2rem;
+    border: none;
+    background-color: rgb(24, 24, 141);
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+.cross{
+    transform: rotate(45deg);
+}
+
+
+@media screen and (max-width: 1000px){
+    .delivery_box{
+        width: 80%;
+    }
+    .order_summary{
+        width: 50%;
+    }
+    .order_subtotal h3{
+        font-size:0.9rem;
+    }
+    .product_image{
+        width: 7rem;
+    }
+    .gift_box h2{
+        font-size: 1rem;
+    }
+    .gift_box h4{
+        font-size: 0.9rem;
+    }
+    .card_detail h1{
+        font-size: 0.7rem;
+        width: fit-content;
+    }
+    .card_detail h3{
+        font-size:0.9rem;
+    }
+    .continue button{
+        padding: 0.7rem 1rem;
+    }
+    .continue h3{
+        font-size: 0.7rem;
+    }
+    .tagline{
+        padding: 0.1rem 0.2rem;
+    }
+    .price_detail{
+        font-size: 0.8rem;
+    }
+}
+
+
+
+@media screen and (max-width: 600px){
+    .price_total{
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .delivery_box{
+        width: 80%;
+    }
+    .location_detail{
+        width: 100%;
+    }
+    .delivery_detail{
+        width: 100%;
+    }
+    .order_summary{
+        width: 80%;
+        border: 1px solid gray;
+        padding-left: 0.8rem;
+        padding-right: 0.8rem;
+        padding-bottom: 0.8rem;
+        margin-top: 1rem;
+        border-radius: 10px;
+    }
+
+    .card{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .image_card{
+        width: 100%;
+    }
+    .price_detail{
+        width: 80%;
+    }
+    .quality_detail{
+        width: 85%;
+        margin-top: 0.5rem;
+    }
+    .subTotal_detail{
+        width: 82%;
+        margin-top: 0.5rem;
+    }
+    .del_bun{
+        width: 80%;
+        margin-top: 0.5rem;
+    }
+    .price_total{
+        padding:0rem 0rem;
+    }
+    
+}
